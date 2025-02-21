@@ -124,10 +124,6 @@ button {
   height: 100%;
   background-color: #ffffff;
   z-index: 1;
-  padding-top: 24px;
-  padding-right: 24px;
-  padding-bottom: 40px;
-  padding-left: 16px;
 
   opacity: 0;
   visibility: hidden;
@@ -303,12 +299,6 @@ button {
   }
 }
 .advantages {
-  padding-top: 96px;
-  padding-bottom: 96px;
-}
-.container-advantage {
-  width: 100%;
-  max-width: 320px;
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -982,13 +972,13 @@ button {
 
   /*----------------Our Team--------------------*/
   .our-team {
-    padding-left: 108px;
-    padding-right: 108px;
     align-items: center;
   }
 
   .our-team-container {
     max-width: 768px;
+    padding-left: 108px;
+    padding-right: 108px;
   }
 
   .team-list {
@@ -1039,13 +1029,13 @@ button {
   }
   .main-container-footer {
     max-width: 768px;
-
     flex-direction: row;
     align-items: flex-start;
     text-align: left;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
+    padding: 0 108px;
   }
   .footer-container-one {
     max-width: 264px;
@@ -1217,12 +1207,11 @@ button {
   }
   /*----------------Our Team--------------------*/
   .our-team-container {
-    max-width: 1440px;
+    max-width: 1158px;
+    padding: 0 15px;
   }
   .our-team {
     width: 100%;
-    padding-top: 120px;
-    padding-bottom: 120px;
   }
 
   .team-item {
@@ -1232,7 +1221,8 @@ button {
 
   /*----------------Portfolio--------------------*/
   .portfolio-container {
-    max-width: 1440px;
+    max-width: 1158px;
+    padding: 0 15px;
   }
   .portfolio {
     padding-top: 120px;
@@ -1294,12 +1284,12 @@ button {
   }
   /*----------------footer--------------------*/
   .page-footer {
-    padding: 100px 16px;
+    padding: 100px 0px;
   }
   .main-container-footer {
     min-width: 1158px;
     padding: 0 15px;
-    justify-content: space-between;
+    gap: 0;
   }
   .footer-container-one {
     max-width: 264px;
@@ -1310,6 +1300,7 @@ button {
   }
   .footer-container-two {
     max-width: 208px;
+    margin-right: auto;
   }
   .social-media-footer-text {
     display: flex;
